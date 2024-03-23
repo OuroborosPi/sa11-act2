@@ -5,5 +5,5 @@ def parse_log_entry(log)
   end
   
   log_entry = "ERROR: Disk space low"
-  p parse_log_entry(log_entry).inspect
+  puts parse_log_entry(log_entry).inspect
   
